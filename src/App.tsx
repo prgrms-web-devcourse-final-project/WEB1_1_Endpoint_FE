@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import './App.css';
-
 import { BottomNavBar } from './components';
 import { GamePage, MainPage, MyPage, SearchPage } from './pages';
 
