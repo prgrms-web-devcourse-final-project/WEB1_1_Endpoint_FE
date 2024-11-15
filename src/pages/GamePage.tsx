@@ -57,27 +57,6 @@ export default function Game() {
         </div>
         {isOpen ? <BottomSheet isOpen={isOpen} setOpen={setIsOpen} /> : ''}
       </main>
-
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t">
-        <div className="flex justify-around p-4">
-          <button className="flex flex-col items-center gap-1">
-            <Icon icon={'home'} />
-            <span className="text-xs">홈</span>
-          </button>
-          <button className="flex flex-col items-center gap-1">
-            <Icon icon={'person_outlined'} />
-            <span className="text-xs">게임</span>
-          </button>
-          <button className="flex flex-col items-center gap-1">
-            <Icon icon={'search'} />
-            <span className="text-xs">검색</span>
-          </button>
-          <button className="flex flex-col items-center gap-1">
-            <Icon icon={'person_outlined'} />
-            <span className="text-xs">마이</span>
-          </button>
-        </div>
-      </div>
     </div>
   );
 }
