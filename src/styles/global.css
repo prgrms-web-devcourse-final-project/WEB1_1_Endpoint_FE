@@ -10,6 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+  background-color: rgb(249 250 251);
 }
 
 @media (max-width: 768px) {
